@@ -1,8 +1,4 @@
 title: Jayden Lee
 logo: /assets/img/profile.jpg
 show_downloads: false
-# theme: jekyll-theme-simplex
-#description: text below image
-plugins:
-  - jekyll-remote-theme
-remote_theme: andreondra/jekyll-theme-simplex
+theme: jekyll-theme-simplex
