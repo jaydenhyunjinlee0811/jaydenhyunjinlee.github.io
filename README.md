@@ -20,7 +20,7 @@ Hi! I'm Jayden, Data Engineer with 4+ years of experience across industries. As 
 
 ## Projects
 ### E-Commerce Cloud Streaming pipeline - [Repository](https://github.com/jaydenhyunjinlee0811/ECommerceStreamingPipeline)
-Tech Stack - Python, AWS S3, AWS DynamoDB, AWS Lambda,
+Tech Stack - Python, AWS S3, AWS DynamoDB, AWS Lambda, AWS Kinesis
 
 This project demonstrates a cross-platform ETL/ELT data pipeline designed to move processed data from a client machine into AWS cloud storage systems. The pipeline ingests two types of mock datasets - _user survey data_ and _invoice transaction data_ — applies transformations, and then routes them through an AWS REST API endpoint into a Kinesis Data Stream. From there, AWS Lambda functions process and load the data into DynamoDB (for user records) and S3 (for invoice records).
 
